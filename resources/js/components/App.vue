@@ -1,14 +1,16 @@
 <template>
     <div class="container">
         <div class="text-center" style="margin: 20px 0px 20px 0px;">
-            <span class="text-secondary">Build Laravel Vue JS CRUD Example - CodePalners</span>
+            <span class="text-secondary">Gestion scolarité - EMIT</span>
         </div>
   
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse">
                 <div class="navbar-nav">
-                    <router-link to="/" class="nav-item nav-link">Home</router-link>
-                    <router-link to="/add" class="nav-item nav-link">Add Post</router-link>
+                    <router-link to="/mentions" class="nav-item nav-link">Mention</router-link>
+                    <router-link to="/addMention" class="nav-item nav-link">Ajouter Mention</router-link>
+                    <router-link to="/annees" class="nav-item nav-link">Année universitaire</router-link>
+                    <router-link to="/addAnnee" class="nav-item nav-link">Ajouter Année</router-link>
                 </div>
             </div>
         </nav>
