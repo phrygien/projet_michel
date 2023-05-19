@@ -39137,7 +39137,9 @@ var render = function() {
                     "router-link",
                     {
                       staticClass: "btn btn-primary",
-                      attrs: { to: { name: "edit", params: { id: annee.id } } }
+                      attrs: {
+                        to: { name: "editAnnee", params: { id: annee.id } }
+                      }
                     },
                     [_vm._v("Modifier\n                    ")]
                   ),
@@ -39533,7 +39535,7 @@ var render = function() {
             on: {
               submit: function($event) {
                 $event.preventDefault()
-                return _vm.updatePost($event)
+                return _vm.updateAnnee($event)
               }
             }
           },

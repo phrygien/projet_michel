@@ -3,7 +3,7 @@
         <h3 class="text-center">Modifier Année</h3>
         <div class="row">
             <div class="col-md-6">
-                <form @submit.prevent="updatePost">
+                <form @submit.prevent="updateAnnee">
                     <div class="form-group">
                         <label>Date debut</label>
                         <input type="date" class="form-control" v-model="annee.date_debut">
